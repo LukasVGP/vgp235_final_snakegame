@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#D0F0C0"
+    tools:context="com.example.vgp235_final_snakegame.GameActivity"> <!-- Ensure tools:context also matches -->
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0 | Time: 0s"
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp" />
+
+    <!-- IMPORTANT: Ensure this fully qualified class name matches your project's actual package -->
+    <com.example.vgp235_final_snakegame.GameView
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="#AADDFF" />
+
+</LinearLayout>
+        

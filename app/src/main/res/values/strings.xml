@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VGP235_Final_SnakeGame</string>
+
+    <!-- Game End Screen Strings -->
+    <string name="game_status_victory">VICTORY!</string>
+    <string name="game_status_game_over">GAME OVER!</string>
+    <!--
+        Using placeholders (%d for integer, %s for string).
+        The %1$d means "the first integer argument".
+        This allows translators to reorder parts of the string.
+    -->
+    <string name="final_score_format">Final Score: %1$d</string>
+    <string name="time_played_format">Time Played: %1$d s</string> <!-- Assuming time is in seconds and can be an int/long -->
+    <string name="back_to_main_menu_button_text">Back to Main Menu</string>
+
+
+
+</resources>
