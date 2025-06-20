@@ -71,7 +71,7 @@ Installation
 Clone the repository:
 Bash
 
-git clone https://github.com/your-username/vgp235-final-snakegame.git
+git clone https://github.com/LukasVGP/vgp235_final_snakegame
 cd vgp235-final-snakegame
 Open in Android Studio:
 Launch Android Studio.
