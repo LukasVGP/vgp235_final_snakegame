@@ -117,4 +117,4 @@ Author
 Lukas Kaelin
 
 
-Project Link: https://github.com/your-username/vgp235-final-snakegame
+Project Link: https://github.com/LukasVGP/vgp235_final_snakegame
